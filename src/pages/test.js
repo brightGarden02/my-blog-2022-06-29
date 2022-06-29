@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import Head from "../components/head";
 import React from "react";
 
 function TestPage() {
@@ -6,12 +6,7 @@ function TestPage() {
     <main>
       <title>테스트</title>
 
-      <div style={{ display: "flex", gap: 10 }}>
-        <Link to="/">홈</Link>
-        <Link to="/about">어바웃</Link>
-        <Link to="/test">테스트</Link>
-        <Link to="/test-space">테스트-스페이스</Link>
-      </div>
+      <Head />
 
       <h1>테스트 페이지 입니다/TEST</h1>
     </main>
