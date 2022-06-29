@@ -9,7 +9,7 @@ function AboutPage() {
         <Link to="/">홈</Link>
         <Link to="/about">어바웃</Link>
         <Link to="/test">테스트</Link>
-        <Link to="/test-space">태스트-스페이스</Link>
+        <Link to="/test-space">테스트-스페이스</Link>
       </div>
       <h1>자기소개 페이지 입니다~</h1>
     </main>

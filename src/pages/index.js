@@ -9,7 +9,7 @@ const IndexPage = () => {
         <Link to="/">홈</Link>
         <Link to="/about">어바웃</Link>
         <Link to="/test">테스트</Link>
-        <Link to="/test-space">태스트-스페이스</Link>
+        <Link to="/test-space">테스트-스페이스</Link>
       </div>
       <h1>Home Page!!! WOW</h1>
     </main>
