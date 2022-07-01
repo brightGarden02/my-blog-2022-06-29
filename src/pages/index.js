@@ -3,10 +3,8 @@ import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <title>홈</title>
-
-      <h1>Home Page! WOW</h1>
+    <Layout pageTitle="Home Page">
+      <p>Hi there </p>
     </Layout>
   );
 };
