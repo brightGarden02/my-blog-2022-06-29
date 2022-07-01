@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `My Second Gatsby Site`,
+    title: `My First Gatsby Site`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -12,5 +12,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    "gatsby-plugin-mdx",
   ],
 };
