@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
